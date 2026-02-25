@@ -1,0 +1,71 @@
+{
+  "rk-12": {
+    "punten": 45,
+    "games_gespeeld": 2,
+    "achievements": [
+      "eerste_stap",
+      "hangman_pro"
+    ],
+    "dagelijkse": {
+      "laatste_datum": "2026-02-25",
+      "streak": 0,
+      "voltooid_vandaag": false,
+      "uitdaging_type": "game",
+      "uitdaging_doel": 3,
+      "uitdaging_voortgang": 0,
+      "uitdaging_game": "rps",
+      "uitdaging_tekst": "Win 3x Steen Papier Schaar"
+    },
+    "stats": {
+      "guess": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      },
+      "adventure": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      },
+      "quiz": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      },
+      "rps": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      },
+      "escape": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      },
+      "hangman": {
+        "gespeeld": 1,
+        "gewonnen": 1,
+        "verloren": 0
+      },
+      "blackjack": {
+        "gespeeld": 1,
+        "gewonnen": 0,
+        "verloren": 1
+      },
+      "trivia": {
+        "gespeeld": 0,
+        "gewonnen": 0,
+        "verloren": 0
+      }
+    },
+    "rps_streak": 0,
+    "quiz_perfect_count": 0,
+    "hangman_geen_fouten": 1,
+    "blackjack_21_count": 0,
+    "blackjack_wins": 0,
+    "trivia_wins": 0,
+    "guess_eerste_poging": 0,
+    "guess_impossible_wins": 0,
+    "escape_voltooid": false
+  }
+}

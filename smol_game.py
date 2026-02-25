@@ -28,25 +28,15 @@ except ImportError:
     blackjack_beschikbaar = False
 
 try:
-    from updater import check_en_vraag
-    updater_beschikbaar = True
+    from trivia import speel_trivia
+    trivia_beschikbaar = True
 except ImportError:
-    updater_beschikbaar = False
+    trivia_beschikbaar = False
 
 cheats = 0
 dev = 0
 
-GAME_VERSION = "2.0.0"
-
-# -------- UPDATE CHECK --------
-# Wordt uitgevoerd voor alles, zodat speler meteen weet of er een update is
-try:
-    from updater import check_en_vraag as _check_update
-    _check_update(GAME_VERSION)
-except ImportError:
-    pass
-except Exception:
-    pass  # Update checker mag de game nooit crashen
+GAME_VERSION = "v2.0.0"
 
 # -------- DEV HELPER --------
 # _dev_state wordt gevuld door de adventure game met de huidige variabelen
